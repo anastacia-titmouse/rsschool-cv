@@ -73,4 +73,4 @@ I'm currently finishing a Front-end Developer course in TeachMeSkills school. I 
 
 ## Languafe:
 
-English level - **Advanced**
+English level - **Advanced(C-1)**
