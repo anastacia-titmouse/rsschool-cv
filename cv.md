@@ -18,17 +18,20 @@ I'm currently finishing a Front-end Developer course in TeachMeSkills school. I 
 ## Code example:
 
 ```
-export function toggleBodyScroll(visible) {
-  const bodyEl = document.querySelector('body');
-  if (visible) {
-    bodyEl.style.overflow = 'inherit';
-  } else {
-    bodyEl.style.overflow = 'hidden';
-  }
+    function makeNegative(num) {
+    if (num < 0) {
+        return num
+    } else {
+        return -num
+    }
 }
 ```
 
 ---
+
+## Projects:
+
+React-budget-app: https://anastacia-titmouse.github.io/react-budget-app/
 
 ## Work experience:
 
