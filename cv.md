@@ -17,7 +17,8 @@ I'm currently finishing a Front-end Developer course in TeachMeSkills school. I 
 
 ## Code example:
 
-```export function toggleBodyScroll(visible) {
+```
+export function toggleBodyScroll(visible) {
   const bodyEl = document.querySelector('body');
   if (visible) {
     bodyEl.style.overflow = 'inherit';
