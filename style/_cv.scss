@@ -1,0 +1,18 @@
+.cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-between;
+    row-gap: 30px;
+    column-gap: 50px;
+
+    &__title {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    &__list-item {
+        font-size: 18px;
+    }
+}
