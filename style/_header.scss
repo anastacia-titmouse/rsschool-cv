@@ -1,0 +1,17 @@
+.header {
+background-color: #d0e6ce;;
+    &__nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    &__nav-item {
+        padding: 20px;
+    }
+
+    &__nav-link {
+        font-size: 18px;
+    }
+}
