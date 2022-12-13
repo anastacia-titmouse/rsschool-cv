@@ -5,97 +5,107 @@
     <title>CV Anastacia Protasenya</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="header__nav">
-            <ul class="header__nav-list">
-                <li class="header__nav-item">
-                    <a href="" class="header__nav-link">Contacts</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="" class="header__nav-link">About</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="" class="header__nav-link">Code</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="" class="header__nav-link">Projects</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="" class="header__nav-link">Experience</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="" class="header__nav-link">Education</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="" class="header__nav-link">Skills</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section class="user">
-        <div class="user__avatar">
-            <img src="" alt="">
-        </div>
-        <div class="user__info">
-            <h2>Anastacia Protasenya</h2>
-            <div class="separator separator--short"></div>
-            <h3>Junior Front-End Developer</h3>
-        </div>
-    </section>
-    <section class="cv">
-        <div class="cv__contacts">
-            <ul class="cv-list">
-                <li class="cv-item">E-mail: anastacia.sinitsa@gmail.com</li>
-                <li class="cv-item">Mobile: +375295614922</li>
-                <li class="cv-item">Github: <a href="https://github.com/anastacia-titmouse">github.com/anastacia-titmouse</a></li>
-            </ul>
-        </div>
-        <div class="cv__about">
-            <p class="cv__about-text">I'm currently finishing a Front-end Developer course in TeachMeSkills school. I think, I'm a person with great learning skills,
-                 ready to master new instruments and technologies. Although, I'm at the beginning of my developer's career, I believe, that patience, 
-                 open-mindness and diligence will help me to become an outstanding specialist.</p>
-        </div>
-        <div class="cv__code">
-            <pre class="cv__code-wrapper"><code class="cv__code-example">function makeNegative(num) {
-                if (num < 0) {
-                    return num
-                } else {
-                    return -num
-                }
-            }</code></pre>
-        </div>
-        <div class="cv__projects">
-            <a href=" https://anastacia-titmouse.github.io/react-budget-app/" class="cv__projects-react">React-budget-app</a>
-        </div>
-        <div class="cv__education">
-            <ul class="cv__education-list"> 
-                <li class="cv__education-item">2005-2009 Minsk Linguistic MSLU College</li>
-                <li class="cv__education-item">2009-2013 Minsk State Linguistic University</li>
-                <li class="cv__education-item">2022 TeachMeSkills - Front-End Developer</li>
-            </ul>
-        </div>
-        <div class="cv__hard-skills">
-            <ul class="cv__hard-skills-list">
-                <li class="cv__hard-skills-item">HTML</li>
-                <li class="cv__hard-skills-item">CSS</li>
-                <li class="cv__hard-skills-item">SASS</li>
-                <li class="cv__hard-skills-item">JavaScript</li>
-                <li class="cv__hard-skills-item">TypeScript</li>
-                <li class="cv__hard-skills-item">React.js</li>
-                <li class="cv__hard-skills-item">Git</li>
-                <li class="cv__hard-skills-item">Webpack</li>
-            </ul>
-        </div>
-        <div class="cv__soft-skills">
-            <ul class="cv__soft-skills-list">
-                <li class="cv__soft-skills-item">Diligence </li>
-                <li class="cv__soft-skills-item">Resposibility</li>
-                <li class="cv__soft-skills-item">Time-management</li>
-                <li class="cv__soft-skills-item">Empathy</li>
-                <li class="cv__soft-skills-item">Adaptability</li>
-                <li class="cv__soft-skills-item">Communication and teamwork</li>
-            </ul>
-        </div>
-    </section>
+    <div class="container">
+        <header class="header">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="" class="header__nav-link">Contacts</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="" class="header__nav-link">Code</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="" class="header__nav-link">Projects</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="" class="header__nav-link">Experience</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="" class="header__nav-link">Education</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="" class="header__nav-link">Skills</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="user">
+            <div class="user__avatar-wrapper">
+                <img class="user__avatar" src="./img/nastya_avatar.jpg" alt="nastya_avatar">
+            </div>
+            <div class="user__info">
+                <h2 class="user__title">Anastacia Protasenya</h2>
+                <h3 class="user__subtitle">Junior Front-End Developer</h3>
+                <p class="user__text">I'm currently finishing a Front-end Developer course in TeachMeSkills school. I think, I'm a person with great learning skills,
+                    ready to master new instruments and technologies. Although, I'm at the beginning of my developer's career, I believe, that patience, 
+                    open-mindness and diligence will help me to become an outstanding specialist.</p>
+                <h5>English level: <b>Advanced (C-1)</b></h5>
+                <ul class="user__contacts-list">
+                    <li class="user__contacts-item"><b>E-mail:</b> anastacia.sinitsa@gmail.com</li>
+                    <li class="user__contacts-item"><b>Mobile:</b> +375295614922</li>
+                    <li class="user__contacts-item"><b>Github:</b> <a class="user__contacts-link" href="https://github.com/anastacia-titmouse">github.com/anastacia-titmouse</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="cv">
+            <div class="cv__card cv__code">
+                <h3 class="cv__title">Code</h3>
+                <pre class="cv__code-wrapper"><code class="cv__code-example">function makeNegative(num) {
+                    if (num < 0) {
+                        return num
+                    } else {
+                        return -num
+                    }
+                }</code></pre>
+            </div>
+            <div class="cv__card cv__projects">
+                <h3 class="cv__title">Projects</h3>
+                <a href=" https://anastacia-titmouse.github.io/react-budget-app/" class="cv__projects-react">React-budget-app</a>
+            </div>
+            <div class="cv__card cv__experience">
+                <h3 class="cv__title">Experience</h3>
+                <ul class="cv__experience-list">
+                    <li class="cv__list-item">2011-2012 School #42, English teacher</li>
+                    <li class="cv__list-item">2012-present time - Personal English Tutor</li>
+                </ul>
+            </div>
+            <div class="cv__card cv__education">
+                <h3 class="cv__title">Education</h3>
+                <ul class="cv__education-list"> 
+                    <li class="cv__list-item">2005-2009 Minsk Linguistic MSLU College</li>
+                    <li class="cv__list-item">2009-2013 Minsk State Linguistic University</li>
+                    <li class="cv__list-item">2022 TeachMeSkills - Front-End Developer</li>
+                </ul>
+            </div>
+            <div class="cv__card cv__hard-skills">
+                <h3 class="cv__title">Hard skills</h3>
+                <ul class="cv__card cv__hard-skills-list">
+                    <li class="cv__list-item">HTML</li>
+                    <li class="cv__list-item">CSS</li>
+                    <li class="cv__list-item">SASS</li>
+                    <li class="cv__list-item">JavaScript</li>
+                    <li class="cv__list-item">TypeScript</li>
+                    <li class="cv__list-item">React.js</li>
+                    <li class="cv__list-item">Git</li>
+                    <li class="cv__list-item">Webpack</li>
+                </ul>
+            </div>
+            <div class="cv__card cv__soft-skills">
+                <h3 class="cv__title">Soft skills</h3>
+                <ul class="cv__soft-skills-list">
+                    <li class="cv__list-item">Diligence </li>
+                    <li class="cv__list-item">Resposibility</li>
+                    <li class="cv__list-item">Time-management</li>
+                    <li class="cv__list-item">Empathy</li>
+                    <li class="cv__list-item">Adaptability</li>
+                    <li class="cv__list-item">Communication and teamwork</li>
+                </ul>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
