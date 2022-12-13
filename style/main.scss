@@ -1,4 +1,6 @@
-p {
-    color: red;
-    background-color: blue;
-}
+@import "./adjustments";
+@import "./resetCSS";
+@import "./container";
+@import "./header";
+@import "./user";
+@import "./cv";
