@@ -1,0 +1,30 @@
+.user {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    &__info {
+        display: grid;
+        row-gap: 20px;
+    }
+
+    &__avatar {
+        height: 370px;
+        width: 290px;
+    }
+
+    &__title {
+        font-size: 50px;
+    }
+
+    &__subtitle {
+        font-size: 30px;
+    }
+
+    &__text {
+        font-size: 20px;
+    }
+
+    &__contacts-item {
+        font-size: 18px;
+    }
+}
