@@ -71,6 +71,6 @@ React-budget-app: https://anastacia-titmouse.github.io/react-budget-app/
 
 ---
 
-## Languafe:
+## Language:
 
 English level - **Advanced(C-1)**

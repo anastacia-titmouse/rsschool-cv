@@ -1,0 +1,42 @@
+.cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-self: center;
+    row-gap: 30px;
+    column-gap: 300px;
+
+    &__card {
+        width: 250px;
+        display: grid;
+        grid-template-rows: 0.5fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: 600;
+        text-decoration: underline;
+        text-align: center;
+        color: #1f5029;
+    }
+
+    &__list-item {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    &__list-link {
+        font-size: 18px;
+        line-height: 1.5;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    &__code-wrapper {
+        background-color: #f6f6f6;
+    }
+}
