@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:end;
+    gap: 50px;
+    width: 100%;
+    padding: 15px;
+
+    &__logo{
+        width: 70px;
+        height: 40px;
+    }
+}
