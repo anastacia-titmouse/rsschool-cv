@@ -191,8 +191,8 @@ h6 {
   justify-self: center;
   row-gap: 30px;
   -webkit-column-gap: 300px;
-     -moz-column-gap: 300px;
-          column-gap: 300px;
+  -moz-column-gap: 300px;
+  column-gap: 300px;
 }
 .cv__card {
   width: 250px;
